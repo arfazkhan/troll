@@ -25,3 +25,10 @@ body {
   80% { color: #0000ff; } /* Blue */
   100% { color: #ff00ff; } /* Magenta */
 }
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+  .dj-text {
+    font-size: 60px; /* Adjust the font size for smaller screens */
+  }
+}
